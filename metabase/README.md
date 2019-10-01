@@ -6,7 +6,7 @@ https://www.metabase.com
 Traefik
 https://traefik.io
 
-To Run:
+## To Run:
 
 docker-compose -f docker-compose-dns.yml up 
 

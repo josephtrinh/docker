@@ -16,7 +16,7 @@ services:
       - "--entrypoints.websecure.address=:443"
       - "--certificatesresolvers.mydnschallenge.acme.dnschallenge=true"
       - "--certificatesresolvers.mydnschallenge.acme.dnschallenge.provider=godaddy"
-      #- "--certificatesresolvers.mydnschallenge.acme.caserver=https://acme-staging-v02.api.letsencrypt.org/directory"
+#      - "--certificatesresolvers.mydnschallenge.acme.caserver=https://acme-staging-v02.api.letsencrypt.org/directory"
       - "--certificatesresolvers.mydnschallenge.acme.email=joseph@my_domain_name.com"
       - "--certificatesresolvers.mydnschallenge.acme.storage=/letsencrypt/acme.json"
     ports:
